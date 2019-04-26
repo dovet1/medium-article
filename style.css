@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Montserrat:400,700');
+
+/*Fonts and colours*/
+
+body{
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #4352A1;
+  font-size: 25px;
+}
+
+/*Custom Design*/
+
+.box {
+  background-image: url("https://picsum.photos/id/237/1000/500");
+  background-size: cover;
+  color: white;
+  padding: 60px;
+}
+
+.box p{
+  font-size: 30px;
+}
+
+.box h1{
+  font-size: 36px;
+  align-content: center;
+  margin: auto;
+}
+
+.container{
+  padding: 80px;
+  width: 700px;
+  margin: auto;
+}
+
+a{
+  background-color: #e1f7e9;
+}
+
+a:hover{
+  background-color: #7dffb3;
+}
+
+/*Media queries*/
+@media (max-width: 1200px){
+  .box{
+    width: 1000px;
+  }
+  .container{
+    width: 1000px;
+  }
+}
+
+@media (max-width: 992px){
+  .box{
+    width: 700px;
+  }
+  .container{
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px){
+  .box{
+    width: 500px;
+  }
+  .container{
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px){
+  .box{
+    width: 300px;
+  }
+  .container{
+    width: 300px;
+  }
+}
